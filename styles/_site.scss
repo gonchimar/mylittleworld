@@ -1,0 +1,27 @@
+@import 'bootstrap';
+@import 'variables';
+
+.default-container {
+    max-width: $page-content-max-width;
+}
+
+body {
+    text-align: center;
+}
+
+.header {
+    max-width: $page-content-max-width;
+    margin: 0 auto;
+}
+
+.header-logo {
+    @extend .default-container;
+}
+
+
+.header-navbar {
+    @extend .navbar;
+    text-align: center;
+    background-color: $primary-color;
+    border-radius: 0;
+}

@@ -1,19 +1,50 @@
 <!Doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="myLittleWorldApp">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="description" content="Jardín de Infantes y Maternal - My Little World. <br /><br /> Contacto: Martín Fierro 2579 BIS<br />esq. Cnel. Lucas Píriz<br />Telefono: 2 487 73 11">
+        <meta name="description" content="Jardín de Infantes y Maternal - My Little World. <br /><br /> Contacto: Martín Fierro 2579 BIS<br />esq. Cnel. Lucas Píriz<br />Teléfono: 2 487 73 11">
         <meta name="keywords" content="my, little, world, mylittleworld, mylittle, littleworld, jardin, infantes, maternal">
 
         <title>My Little World - Jardín de Infantes</title>
 
 
-        <link rel="stylesheet" type="text/css" href="../bootstrap/stylesheets/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="styles/_site.min.css" />
         <script src="../angular/angular.min.js"></script>
     </head>
     <body>
 
-        <p>Nothing here</p>
+        <div class="header">
+
+            <div class="header-logo">
+                <img class="header-logo-image" alt="my little world logo" src="images/logo.jpg" />
+            </div>
+
+            <nav class="header-navbar">
+              <div class="container-fluid">
+
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-content" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+
+
+                <div class="collapse navbar-collapse navbar-content">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="/inicio">Inicio</a></li>
+                    <li><a href="/quienessomos">Quienes somos</a></li>
+                    <li><a href="#">Nuestra Propuesta</a></li>
+                    <li><a href="#">Galeria de Fotos</a></li>
+                    <li><a href="#">Contactenos</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </nav>
+
+        </div>
 
     </body>
 </html>
